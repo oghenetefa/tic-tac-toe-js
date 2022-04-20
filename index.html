@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Game [ Tic Tac Toe ] - Oghenetefa</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- link to main app assets - css -->
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- link to main app assets - javascript -->
+	<script defer type="text/javascript" src="assets/js/main.js"></script>
+</head>
+<body>
+	<div id="body__app">
+		<main id="main">
+			<section class="section playground">
+				<div class="section__content container-md">
+					<div class="section__block tic-tac-toe">
+						<header class="tic-tac-toe__header">
+							<div class="tic-tac-toe__header-nav">
+								<div class="select-group">
+									<label class="user-selected-player-label" for="user-selected-player">You are</label>
+									<select name="user-selected-player" id="user-selected-player" class="select user-selected-player">
+										<option value=1>PLAYER - 1</option>
+										<option value=2>PLAYER - 2</option>
+									</select>
+								</div>
+								<h4 class="tic-tac-toe__status"></h4>
+							</div>
+						</header>
+						<div class="tic-tac-toe__body">
+							<div class="tic-tac-toe__board">
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								<span class="tic-tac-toe__tile" tabindex="0"></span>
+								
+							</div>
+						</div>
+						<footer class="tic-tac-toe__footer">
+							<div class="tic-tac-toe__footer-nav">
+								<button 
+									arial-game-sounds-on="true" 
+									class="btn tic-tac-toe__btn-sounds"
+								> Sounds:
+									<span class="on-speaker">🔊</span>
+									<span class="off-speaker">🔇</span>
+								</button>
+								<button class="btn tic-tac-toe__btn-quit">Restart</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+</html>
